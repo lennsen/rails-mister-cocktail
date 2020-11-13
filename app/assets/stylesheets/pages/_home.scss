@@ -1,1 +1,36 @@
 // Specific CSS for your home-page
+.home-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-left {
+  position: sticky;
+  width: 33%;
+}
+
+.container-right {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 66%;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: lighter;
+  color: #383838;
+  // word-wrap: break-word;
+  // padding-left: 10px;
+  // margin-top: 20px;
+  }
+
+  .card {
+    margin-bottom: 16px;
+  }
+
+.card-body {
+  padding: 10px;
+  text-align: center;
+  color: #383838;
+}

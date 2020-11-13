@@ -1,0 +1,17 @@
+<div class="home-container mt-5 ml-5">
+<div class="container-left">
+  <h1>HOLY<br>SPIRITS</h1>
+  <%= link_to 'Create a Cocktail', new_cocktail_path, class: "btn btn-warning" %>
+</div>
+<div class="container-right">
+  <% @cocktails.each do |cocktail| %>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="<%= cocktail.image_url %>" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text"><%= link_to cocktail.name, cocktail %></p>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+</div>
