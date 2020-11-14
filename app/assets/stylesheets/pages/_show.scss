@@ -4,41 +4,51 @@
   justify-content: space-between;
 }
 
+.show-image {
+  position: sticky;
+  top: 0;
+}
+
+.buttons-top {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
 .cocktail-details {
   width: 700px;
   margin-left: 5px;
   margin-top: 5px;
   padding: 16px;
 
-
-.ingredient-container {
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 12px;
-}
-
-  .ingredients {
-    padding: 3px 10px;
-    margin-left: 5px;
-    border: 1px solid black;
-    width: auto;
-  }
-
-  h1 {
-    font-size: 100px;
-    font-weight: lighter;
-    color: #383838;
-    word-wrap: break-word;
-    padding-left: 10px;
-    margin-top: 20px;
+    .ingredient-container {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 12px;
     }
 
-  h2 {
-    padding-left: 16px;
-    font-style: italic;
-    font-weight: lighter;
+    .ingredients {
+      padding: 3px 10px;
+      margin-left: 5px;
+      border: 1px solid black;
+      width: auto;
+    }
+
+    h1 {
+      font-size: 100px;
+      font-weight: lighter;
+      color: #383838;
+      word-wrap: break-word;
+      padding-left: 10px;
+      margin-top: 20px;
       }
-  p {
-    padding-left: 16px;
-  }
+
+    h2 {
+      padding-left: 16px;
+      font-style: italic;
+      font-weight: lighter;
+        }
+    p {
+      padding-left: 16px;
+    }
 }

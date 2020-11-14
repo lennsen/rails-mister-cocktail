@@ -1,13 +1,18 @@
 <div class="show-container">
     <div>
-      <img src="<%= @cocktail.image_url %>" alt="">
+      <img class="show-image" src="<%= @cocktail.image_url %>" alt="">
     </div>
     <div class="cocktail-details">
-      <div class="btn">
-        <%= link_to "Back to overview", root_path, class: "btn btn-outline-secondary" %>
+      <div class="buttons-top">
+        <div class="btn">
+          <%= link_to "Back to overview", root_path, class: "btn btn-outline-secondary" %>
+        </div>
+        <div class="btn">
+          <%= link_to "Delete cocktail", root_path, class: "btn btn-outline-danger" %>
+        </div>
       </div>
       <h1><%= @cocktail.name.upcase %></h1>
-      <h2>Subheader here</h2>
+      <h2>Recipe</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       <h2>Ingredients</h2>
       <div class="ingredient-container">
