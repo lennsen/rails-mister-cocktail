@@ -7,6 +7,7 @@
 .show-image {
   position: sticky;
   top: 0;
+  height: -webkit-fill-available;
 }
 
 .buttons-top {
